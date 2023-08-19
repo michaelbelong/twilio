@@ -6,9 +6,9 @@ module.exports = (req, res) => {
 		<Pause length="1"/>
 		<Say voice="Polly.Joanna">We are currently experiencing higher than normal call volumes.</Say>
 		<Pause length="1"/>
-		<Say voice="Polly.Joanna">Please stay on the line and we will answer your call in the order it arrived.</Say>
+		<Say voice="Polly.Joanna">Please remain on the line and we will answer your call in the order it was received.</Say>
 		<Pause length="1"/>
-		<Say voice="Polly.Joanna">You are caller 6-6-6. Thank you.</Say>
+		<Say voice="Polly.Joanna">You are caller number 6-6-6. Thank you.</Say>
 		<Play>https://metanorm.com/OpusNo1.mp3</Play>
 	</Response>
   `);
